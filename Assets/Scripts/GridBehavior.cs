@@ -336,7 +336,7 @@ public class GridBehavior : MonoBehaviour {
 	public void SpawnTile(){
 		posx = Random.Range (0, 4);
 		posy = Random.Range (0, 4);
-		id = Random.Range (8, 9);
+		id = Random.Range (0, 2);
 
 		while (tiles [posx, posy] != null) {
 			posx = Random.Range (0, 4);
